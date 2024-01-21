@@ -41,7 +41,7 @@
 
 <body class=".f-primary">
     <header class="container mx-auto my-20">
-        <div class="hero">
+        <div>
             <div class="hero-content flex-col-reverse lg:flex-row-reverse">
                 <div class="relative flex-1">
                     <img src="images/banner.png" class=" " />
@@ -60,7 +60,7 @@
                 </div>
                 <div class="flex items-center flex-1">
                     <div>
-                        <h1 class="text-5xl font-bold">It's good
+                        <h1 class="lg:text-5xl text-4xl font-bold ">It's good
                             <br>
                             tea time at
                             <br>
@@ -130,8 +130,8 @@
         <!-- fresh tea section start -->
         <section class="my-20 container mx-auto">
             <div>
-                <div class="flex gap-12 lg:flex-row flex-col-reverse">
-                    <div class="flex-1 grid gap-4 lg:grid-cols-2 grid-cols-1">
+                <div class="flex gap-12 lg:flex-row flex-col-reverse mx-10">
+                    <div class="flex-1 grid gap-4 lg:grid-cols-2 grid-cols-1 ">
                         <!-- 4 grid -->
                         <div class="h-36 rounded-lg bg-gradient-to-r from-red-100 to-[#FF8938]">
                         </div>
@@ -146,7 +146,7 @@
                         </div>
                     </div>
                     <!-- text -->
-                    <div class="flex-1">
+                    <div class="flex-1 ">
                         <h2 class="text-5xl font-extrabold">Great Tea, Freshly
                             <br>
                             Presented
@@ -192,7 +192,7 @@
                                 or randomised words which don't look even slightly believable.
                             </p>
                             <button class="btn text-red-500 py-4 px-7 bg-white">Show All</button>
-                            <!-- <img class="absolute opacity-20 text-7xl" src="images/cup.png" alt=""> -->
+                            <img class="absolute opacity-40 text-7xl" src="images/bg_cup.png" alt="">
                         </div>
                     </div>
                     <div class="">
@@ -278,7 +278,68 @@
         </section>
 
     </main>
-    <footer></footer>
+    <footer class="mt-10 px-44 py-36 bg-base-200 text-base-content">
+        <!-- first row -->
+        <div class="lg:flex justify-between mb-20">
+            <div class="lg:flex justify-end items-center">
+                <img src="images/cup.png" alt="cup">
+            </div>
+            <div class="lg:flex  lg:gap-10 my-8 ">
+                <p class="text-center text-xl text-gray-400 font-medium flex items-center">Ready to get strated?</p>
+                <div class="my-10">
+                    <button class="bg-red-600 rounded-lg px-6 py-4 text-xl font-bold text-white">Get Started</button>
+                </div>
+            </div>
+        </div>
+        <!-- middle row -->
+        <div class="footer lg:ml-14">
+            <nav>
+                <header class=" font-semibold text-xl">Services</header>
+                <a class="link link-hover">Branding</a>
+                <a class="link link-hover">Design</a>
+                <a class="link link-hover">Marketing</a>
+                <a class="link link-hover">Advertisement</a>
+            </nav>
+            <nav>
+                <header class=" font-semibold text-xl">Company</header>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </nav>
+            <nav>
+                <header class=" font-semibold text-xl">Legal</header>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </nav>
+            <form>
+                <header class=" font-semibold text-2xl">Subscribe to our
+                    <br>
+                    newsletter
+                </header>
+                <fieldset class="form-control w-80">
+                    <div class="join">
+                        <input type="text" placeholder="Email address"
+                            class="bg-transparent border-b-2 border-black p-5 " />
+                        <button class="btn  rounded-full bg-gradient-to-r from-[#e90808] to-[#dd8f8f] "><i
+                                class="fa-solid fa-chevron-right"></i></button>
+
+                    </div>
+                </fieldset>
+                <!--social icon -->
+                <div class="flex gap-10 justify-center my-10 text-xl">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </form>
+        </div>
+        <!-- last row -->
+        <div class="text-center mt-10">
+            <p class="font-medium text-gray-400 text-base">Copyright © 2024 - All right reserved</p>
+        </div>
+    </footer>
 
 </body>
 
